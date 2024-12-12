@@ -77,33 +77,6 @@ class LoginScreen extends StatelessWidget {
                   Expanded(child: Divider()),
                 ],
               ),
-              SizedBox(height: 16),
-
-              // Botões de Redes Sociais
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  IconButton(
-                    icon: SvgPicture.asset(
-                      'assets/icons/google.svg',
-                      height: 40,
-                    ),
-                    onPressed: () {
-                      // Ação para login com Google
-                    },
-                  ),
-                  SizedBox(width: 16),
-                  IconButton(
-                    icon: SvgPicture.asset(
-                      'assets/icons/facebook.svg',
-                      height: 40,
-                    ),
-                    onPressed: () {
-                      // Ação para login com Facebook
-                    },
-                  ),
-                ],
-              ),
               SizedBox(height: 24),
 
               // Link de Esqueci Minha Senha
